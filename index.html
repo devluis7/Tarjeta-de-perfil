@@ -6,14 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tarjeta de Perfil de Luis E. Bazan</title>
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+
+    <link rel="stylesheet" href="./css/index.css">
   </head>
-  <body>
+  <!-- BEM-->
+  <!-- Bloque, Elemento, Modificador-->
+  <body class="body">
     <main>
-      <section>
-        <div>
-          <article>
-            <header>
-              <div>
+      <section class=profile">
+        <div class=profile__container">
+          <article class="card">
+            <header class="card__header">
+              <div class="card__header-img-container">
                 <img
                   src="https://i.postimg.cc/wxCtjSMM/profile-07.jpg"
                   alt="Luis E. Bazan"
@@ -22,28 +26,30 @@
                 />
               </div>
             </header>
-            <section>
-              <h1>Luis Enrique Bazan Rojas</h1>
-              <h2>👨‍💻Desarrollador👨‍💻 | 🌌Frontend🌌 | ⚛React⚛</h2>
-              <p>Apasionado por la tecnología</p>
+            <section class="card__body">
+              <h1 class="card__body-title">Luis Enrique Bazan Rojas</h1>
+              <h2 class="card__body-keyboard">👨‍💻Desarrollador👨‍💻 | 🌌Frontend🌌 | ⚛React⚛</h2>
+              <p class="card__body-presentation">Apasionado por la tecnología</p>
             </section>
-            <footer>
+            <footer class="card__footer">
               <nav>
-                <ul>
-                  <li>
+                <ul class="card__footer-nav-list">
+                  <li class="card__footer-nav-item">
                     <a
                       href="https://www.youtube.com/channel/UCyt62Zz568MdtQCXrtIs0mw"
-                    >
+                      class="card__footer-nav-img"
+                      />
                       <img
                         src="https://i.postimg.cc/9z59vfr5/youtube.png"
                         alt="Youtube"
                         width="32"
                         height="32"
-                      />
+                       class="card__footer-nav"/>
                     </a>
                   </li>
                   <li>
-                    <a href="https://github.com/devluis7">
+                    <a href="https://github.com/devluis7"
+                    />
                       <img
                         src="https://i.postimg.cc/5NBMxTJX/github.png"
                         alt="Youtube"
@@ -53,7 +59,8 @@
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.linkedin.com/in/luis-bazan-rojas/">
+                    <a href="https://www.linkedin.com/in/luis-bazan-rojas/"
+                    />
                       <img
                         src="https://i.postimg.cc/J7BLFtdc/linkedin.png"
                         alt="Youtube"
@@ -63,7 +70,8 @@
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.instagram.com/luis.brojas/">
+                    <a href="https://www.instagram.com/luis.brojas/"
+                    />
                       <img
                         src="https://i.postimg.cc/sfJtqS4W/instagram.png"
                         alt="Youtube"
@@ -73,13 +81,15 @@
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.facebook.com/xansquared/">
+                    <a href="https://www.facebook.com/xansquared/"
+                    />
                       <img src=https://i.postimg.cc/7YHyZXZX/facebook.png"
                       alt="Youtube" width="32" height="32">
                     </a>
                   </li>
                   <li>
-                    <a href="https://github.com/devluis7/Tarjeta-de-perfil">
+                    <a href="https://github.com/devluis7/Tarjeta-de-perfil"
+                    />
                       <img
                         src="https://i.postimg.cc/65TVxg9t/world-globe.png"
                         alt="Youtube"
